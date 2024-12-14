@@ -7,7 +7,7 @@ if [ "$UID" -ne 0 ]; then
 fi
 
 # Define variables (change as needed)
-SOURCE_URL="https://raw.githubusercontent.com/AlecJDavidson/py-create/main/py-create"
+SOURCE_URL="https://raw.githubusercontent.com/AlecJDavidson/py-create/refs/heads/main/install.sh"
 INSTALL_DIR="/usr/local/bin"
 BIN_NAME="py-create"
 
