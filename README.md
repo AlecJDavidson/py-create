@@ -1,9 +1,3 @@
----
-
-# *README: Py-Create Overview*
-
----
-
 ## **Overview**
 
 This project provides two scripts:
