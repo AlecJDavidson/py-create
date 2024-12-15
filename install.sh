@@ -37,6 +37,9 @@ rm -f "/tmp/py-create" # Clean up temp file
 # Make the script executable
 chmod +x "$INSTALL_DIR/$BIN_NAME"
 
+# Change ownership to current user
+chown $(whoami):$(whoami) "$INSTALL_DIR/$BIN_NAME"
+
 # Add to PATH if not already present
 if echo $PATH | grep -q "$INSTALL_DIR"; then
     echo "py-create is now installed and available in your \$PATH."
